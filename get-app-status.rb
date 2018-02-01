@@ -2,9 +2,8 @@ require 'Spaceship'
 require 'json'
 
 # Constants
-itc_username = ENV["itc_username"]
-bundle_id = ENV["bundle_id"]
-
+itc_username = ARGV[0]
+bundle_id = ARGV[1]
 if (!itc_username || !bundle_id)
 	puts "did not find username and bundle id"
 	exit

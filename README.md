@@ -12,8 +12,7 @@ These scripts fetch app info directly from iTunes Connect and posts changes in S
 These scripts read specific values from the bash environment. Be sure to set these to the appropriate values:
 ```bash
 export BOT_API_TOKEN="xoxb-asdfasdfasfasdfasdfsd" # The API Token for your bot, provided by Slack
-export itc_username="email@email.com" # The email you use to log into iTunes Connect
-export bundle_id="com.best.app" # The bundle ID of the app you want these scripts to check
+export bundle_ids="apple@id.com=com.best.app|apple@id.com=com.best.app2" #The email you use to log into iTunes Connect | The bundle ID of the app you want these scripts to check
 ```
 
 ### Install node modules
